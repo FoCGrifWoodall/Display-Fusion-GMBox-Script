@@ -27,17 +27,17 @@ public static class DisplayFusionFunction
 		//This is if the 2nd option, Mobile Armor Advanced is selected.
 		else if (selectedGMBox == "Mobile Armor Advanced")
             {
-            uint BladeFailingGMBox = BFS.Application.Start("C:\\Users\\Grif\\Desktop\\GM Box\\Campaigns\\Mobile Armor Advanced");
-            uint BladeFailingPDF = BFS.Application.Start("X:\\Gurps\\Mekton\\Mekton_Zeta.pdf");
-            uint BladeFailingRoll20 = BFS.Application.Start("C:\\Users\\Grif\\Desktop\\GM Box\\Campaigns\\Mobile Armor Advanced\\Mobile_Armor_Advanced_Roll20_Shortcut.lnk");
-            uint BladeFailingUnUsedPictures = BFS.Application.Start("C:\\Users\\Grif\\Desktop\\GM Box\\Un-used pictures");
+            uint MobileArmorAdvancedGMBox = BFS.Application.Start("C:\\Users\\Grif\\Desktop\\GM Box\\Campaigns\\Mobile Armor Advanced");
+            uint MobileArmorAdvancedPDF = BFS.Application.Start("X:\\Gurps\\Mekton\\Mekton_Zeta.pdf");
+            uint MobileArmorAdvancedRoll20 = BFS.Application.Start("C:\\Users\\Grif\\Desktop\\GM Box\\Campaigns\\Mobile Armor Advanced\\Mobile_Armor_Advanced_Roll20_Shortcut.lnk");
+            uint MobileArmorAdvancedUnUsedPictures = BFS.Application.Start("C:\\Users\\Grif\\Desktop\\GM Box\\Un-used pictures");
             }
 		//This is if the 3rd option, Project Breaker Fight is selected.
 		else if (selectedGMBox == "Project Breaker Fight")
             {
-            uint BladeFailingGMBox = BFS.Application.Start("C:\\Users\\Grif\\Desktop\\GM Box\\Campaigns\\Project Breaker Fight");
-            uint BladeFailingRoll20 = BFS.Application.Start("C:\\Users\\Grif\\Desktop\\GM Box\\Campaigns\\Blade Failing\\Project_Breaker_Fight_Roll20_Shortcut.lnk");
-            uint BladeFailingUnUsedPictures = BFS.Application.Start("C:\\Users\\Grif\\Desktop\\GM Box\\Un-used pictures");
+            uint ProjectBreakerFightGMBox = BFS.Application.Start("C:\\Users\\Grif\\Desktop\\GM Box\\Campaigns\\Project Breaker Fight");
+            uint ProjectBreakerFight20 = BFS.Application.Start("C:\\Users\\Grif\\Desktop\\GM Box\\Campaigns\\Blade Failing\\Project_Breaker_Fight_Roll20_Shortcut.lnk");
+            uint ProjectBreakerFightPictures = BFS.Application.Start("C:\\Users\\Grif\\Desktop\\GM Box\\Un-used pictures");
             }
         //Finally, this is if no option is selected, which promptly closes the dialogue box after showing the message.
         else
